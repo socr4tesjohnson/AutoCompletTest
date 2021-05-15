@@ -1,0 +1,15 @@
+.autoCompleteItem {
+    cursor: pointer;
+    border: 1px solid darkgray;
+    height: 50px;
+
+}
+
+.autoCompleteItem:hover {
+    background-color: #ececec;
+}
+
+.autoCompleteItem > img {
+    outline: 1px darkgray solid;
+    width: 48px;
+}

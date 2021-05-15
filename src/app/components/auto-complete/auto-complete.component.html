@@ -1,0 +1,5 @@
+<div style="width:300px; padding: 10px;" >
+    <label>Site Query:</label>
+    <input type="text" class="form-control" [(ngModel)]="query" (ngModelChange)="this.queryUpdate.next($event)" placeholder="Enter Site Name...">
+    <app-auto-complete-item *ngFor="let company of companies" [company]="company"></app-auto-complete-item>
+</div>
